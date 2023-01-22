@@ -1,0 +1,261 @@
+body
+{
+    background-color : black;
+    color : white;
+    padding : 0;
+    margin : 0;
+}
+
+
+.fa-bars
+{
+    font-weight: lighter;
+    font-size: 25px;
+}
+.fa-bars:hover{
+    cursor: pointer;
+}
+.fa-youtube:hover{
+    cursor: pointer;
+}
+.fa-youtube{
+    color : red;
+    font-size : 20px;
+}
+.logoT
+{
+    font-weight: 400;
+    font-family: sans-serif;
+    font-size: 20px;
+    letter-spacing: .1px;
+}
+.search-bar{
+    border-radius: 30px;
+    padding : 6px;
+    outline: none;
+    padding-left : 10px;
+}
+.search-bar{
+    width : 430px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    margin-right : 0;
+}
+
+.search-bar:hover{
+    cursor :text;
+}
+
+input::placeholder{
+    font-family: sans-serif;
+    letter-spacing: .5px;
+}
+
+.fa-search{
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background-color: red;
+    padding : 6px;
+}
+.fa-search{
+    height: 18px;
+    margin-left : 0;
+}
+
+.fa-search:hover{
+    cursor: pointer;
+}
+
+.fa-microphone 
+{
+    margin-left : 4px;
+    padding : 8px;
+    background-color: rgb(43, 43, 43);
+    border-radius: 1000px;
+}
+
+.fa-microphone:hover 
+{
+    cursor: pointer;
+}
+
+.fa-video 
+{
+    font-size: 18px;
+    margin : 10px;
+}
+.fa-video:hover{
+    cursor: pointer;
+}
+
+.fa-bell{
+    font-size: 20px;
+    margin: 10px;
+}
+.fa-bell:hover
+{
+    cursor: pointer;
+}
+
+.M 
+{
+    font-size: 18px;
+    font-weight: 200;
+    padding : 6px;
+    background-color: rgb(2, 186, 11);
+    border-radius : 100px;
+    margin: 10px;
+}
+.M:hover 
+{
+    cursor: pointer;
+}
+
+ul{
+    list-style-type: none;
+    display :flex;
+    justify-content: space-between;
+    padding-left : 20px;
+    align-items: center;
+    margin : 0;
+    padding-right : 10px;
+}
+.home{
+    margin-left : 13px;
+    padding : 6px;
+    background-color: hsl(0, 0%, 18.82%);
+    border-radius : 10px;
+}
+.home span{
+    padding : 10px;
+}
+.logo 
+{
+    display: flex;
+    gap : 15px;
+}
+
+.main-content{
+    display : flex;
+}
+
+.side-bar{
+    width : 170px;
+    margin : 10px;
+    margin-top : 12px;
+    margin-left : 12px;
+    font-family: sans-serif;
+}
+
+hr.break{
+    border : .5px solid gray;
+}
+
+.side-bar .home span{
+    text-align: center;
+    font-size : 13px;
+    font-weight: 400px;
+}
+
+.bar i, .settings i{
+    margin-right : 18px;
+}
+.bar, .settings
+{
+    margin : 15px;
+}
+
+.bar span, .settings span{
+    font-size : 13px;
+}
+
+.warning, .license{
+    font-size : 12px;
+    word-spacing: 10px;
+    margin-top : 10px;
+    color :rgb(62, 61, 61);
+}
+.side-bar div:hover .warning:hover,.side-bar div:hover .license:hover{
+   background-color: none;
+}
+
+.side-bar div:hover{
+    background-color: rgb(62, 61, 61);
+    border-radius: 10px;
+}
+
+.side-bar div{
+    padding: 7px;
+}
+
+.videos ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    gap : 24px;
+    padding : 10px;
+    margin-top : 10px;
+}
+
+
+.videos ul li a{
+    text-decoration: none;
+    color : white;
+    font-family : sans-serif;
+    letter-spacing: 0;
+    font-size : 12px;
+    padding : 4px;
+    background-color: hsl(0, 0%, 18.82%);
+    border-radius : 5px;
+}
+
+.videos ul li a:hover {
+   background-color: rgb(62, 61, 61);
+}
+
+.videos ul li .all{
+    background-color: white;
+    color : black;
+}
+.videos ul li .all:hover{
+    background-color: white;
+    color : black;
+}
+
+.channel-logo{
+    height : 30px;
+    width : 30px;
+    border-radius: 100%;
+}
+
+.details{
+    display : flex;
+    gap : 5px;
+}
+.video-title{
+    font-size : 13px;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+.name{
+    font-size : 10px;
+    color : gray;
+}
+.thumbnail{
+    border-radius : 10px;
+}
+.video {
+    width : 200px;
+}
+.videos-grid{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap : 5px;
+}
+
+.videos-grid .video .thumbnail{
+    width : 250px;
+    height : 180px;
+    border-radius: 6px;
+}
